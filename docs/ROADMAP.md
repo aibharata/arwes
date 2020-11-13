@@ -1,6 +1,5 @@
-- The order in the lists does not represent priority.
-- Active items are represented with **bold**.
 - Tasks are listed in the [project boards](https://github.com/arwes/arwes/projects).
+- The order in the lists does not represent priority.
 
 ----
 
@@ -52,34 +51,25 @@ the vision of the project is.
 
 ----
 
-## Backlog
+## 2020
 
-- [ ] Update contribution guidelines to allow developers to know what are the
-technical guidelines, architectures, workflow tasks, and communication and
-management details, in the project, to contribute in it.
-- Animation System.
-  - [ ] Add animation components support for external controlling APIs.
-- Design System.
-  - [ ] Create a design specification to define the design tools architecture.
-  - [ ] Create a design system for Arwes UI components.
-  - [ ] Create a user experience specification for Arwes applications.
-  - [ ] Develop the `@arwes/design` package with the design system APIs.
-- General Tools.
-  - [ ] Define general purpose tools and browser API tools to modularize. It will
-  include tools for asset loading, viewport dimension, user-browser activity,
-  and any other general need.
-  - [ ] Develop the `@arwes/platform` package with the general tools APIs.
-- Arwes core components.
-  - [ ] Develop the `@arwes/core` package with the core UI components.
-- Arwes UI components.
-  - [ ] Define the UI components to implement the specified Arwes design system.
-  - [ ] Develop the `@arwes/arwes` package with the UI components.
-- Animation System.
-  - [ ] Research SEO and SSR strategies to standardize recommended animation
-  setups and settings.
-- Sounds System.
-  - [ ] Research browser sound API supports and compatibility to standardize
-  recommended sound setups and settings.
-- [ ] Create user guides documents where to specify how to use the framework.
-- [ ] Develop the website _arwes.dev_ for Arwes v1.0 to document the project
-vision, guidelines, documentation, APIs, and UI component playground.
+### Q4
+
+- [x] Project dependency packages update.
+- [x] Repository and website documentation file structure definition.
+- [x] [#24](https://github.com/arwes/arwes/issues/24) Playground support with
+multiple sandboxes.
+- [x] Playground application UX update.
+- [ ] [#61](https://github.com/arwes/arwes/issues/61) Migrate project packages
+source code to TypeScript.
+- [ ] [#62](https://github.com/arwes/arwes/issues/62) Setup UMD distribution support.
+- [ ] [#63](https://github.com/arwes/arwes/issues/63) Research SEO support for
+animated components.
+
+----
+
+## 2021
+
+### Q1
+
+- [ ] [#18](https://github.com/arwes/arwes/issues/18) Update contributing documentation.
